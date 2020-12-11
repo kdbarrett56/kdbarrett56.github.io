@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Kevin D. Barrett IST Instructor</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar58"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Kevin D. Barrett</h1>
+							<p>IST Instructor, Emmett O'Brien Technical High School</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+
+						<li><a href="#coverletter" id="portfolio-link"><span class="icon solid fa-th">Cover Letter</span></a></li>
+							
+
+				</div>
+
+				<div class="bottom">
+
+					
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Hi! I'm Kevin Barrett.  I am an IT Instructor at Emmett O'Brien Technical High School.  This is a website about me.</p>
+							
+						</div>
+					</section>
+
+
+				<!-- Cover Letter -->
+					<section id="coverletter" class="two">
+						<div class="container">
+
+						  <header>
+								<h2>Cover Letter</h2>
+							</header>
+
+				          <p><a href="https://docs.google.com/document/d/1mzOQHyAuZXW1LKSrPql-8XbKQZ6uIKgmlrdqXueATwg/edit" target="_blank">Click here for cover letter!</a></p>
+                        
+
+							
