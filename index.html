@@ -1,25 +1,9 @@
 <html>
   <head>
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Cookie&display=swap" rel="stylesheet">
-	<TITLE>K Barrett Holiday Greeting!</TITLE>
-	<style>
-		#snow {
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		pointer-events: none;
-		z-index: 1000;
-		}
-	</style>
-
     <style>
       body {
-       <!--  background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/10/Pictures-Christmas-Ornament.jpg); -->
-		 background-image: url(https://image.freepik.com/free-vector/blurred-winter-background_23-2148714356.jpg);
-        background-size: cover;
-		width: 100%;
+        width: 100%;
         height: 100vh;
         perspective: 1200px;
         display: flex;
@@ -27,63 +11,42 @@
         align-items: center;
         text-align: center;
         font-family: 'Archivo Narrow', sans-serif;
+        background-image: url('https://lh3.googleusercontent.com/drive-storage/AJQWtBOQCUg5AXwq1XGxEax_dmJx8Ul4SkmfndarS9A49BTebe4IH4zrRN2C7WCjYrpXwkWQEAqDf4NifBFYmNeEdTTxaIkZ0PAjmJS01C7V7gn9Oc0=w1515-h919');
+      background-size: cover;
       }
-	  
 
-h1 {
- font-family: 'Cookie', serif;
- font-size: 80px;
- margin-top: 40px;
- color: white; 
-}
-      .card {
-        transform-style: preserve-3d;
-        position: relative;
-        height: 400px;
-        cursor: pointer;
-      }
-      .front, .page {
-      background: url('winter_scene.jpg') 
+      .front {
+      background: url('https://lh3.googleusercontent.com/drive-storage/AJQWtBPeEu0nHKwMczneGnYH-90LjGH89vIYLVFFZ9Yym-726hVNnygudc_8nEgIxkTw3m5QIiGYZPJMYvVWly-5Jccq8k0KkmHsEl77mIM8uERRiGo=w1515-h919') 
 no-repeat center darkred;
       background-size: cover;
     }
-	
-		.front, .back, .page { 
-		no-repeat center darkred;
-     	background-size: cover;
+      
+      .card {
+        transform-style: preserve-3d;
+        position: relative;
+        height: 200px;
+        cursor: pointer;
+      }
+      
+      .front, .page {
+      background: url('https://lh3.googleusercontent.com/drive-storage/AJQWtBPeEu0nHKwMczneGnYH-90LjGH89vIYLVFFZ9Yym-726hVNnygudc_8nEgIxkTw3m5QIiGYZPJMYvVWly-5Jccq8k0KkmHsEl77mIM8uERRiGo=w1515-h919') 
+no-repeat center darkred;
+      background-size: cover;
+    }
+
+      .front, .back, .page {
         transform-style: preserve-3d;
         transform-origin: left center;
         transition: transform .5s ease-in-out, box-shadow .5s ease-in-out;
         position: absolute;
-        width: 240px;
+        width: 120px;
         height: 100%;
         top: 0; 
         left: 0;
         background-color: #F7F7F7;
         padding: 40px;
-      }	
-		
-		.message {
-  margin-top: 30px;
-  color: #900909;
-}
-h5 {
-  font-family: 'Cookie', serif;
-}
-p {
-   font-size: 10px;
-}	    
-h5 {
-  font-family: 'Cookie', serif;
-}
-p {
-   font-size: 20px;
-}
-img{
-   margin-top: 60px;
-   width: 90px;
-   transform: scaleX(-1);
-}	
+      }
+
       .card:hover .front {
         transform: rotateY(-160deg);
         box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
@@ -98,8 +61,10 @@ img{
         transform: rotateY(-20deg);
         box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
       }
-
-	
+      
+      .message {
+  margin-top: 30px;
+  color: #900909;
 }
 h5 {
   font-family: 'Cookie', serif;
@@ -107,103 +72,39 @@ h5 {
 p {
    font-size: 10px;
 }
-	    
+      
+      h1 {
+ font-family: 'Cookie', serif;
+ font-size: 40px;
+ margin-top: 40px;
+ color: white; 
+}
+   
+  img{
+   margin-top: 60px;
+   width: 90px;
+   transform: scaleX(-1);
+}    
     </style>
   </head>
-  <body> 
+  <body>
     <div class="card">
       <div class="back">
-		  <div class="message">
-   <p>Dear Friends,</p>
-   <p>Wishing you and your family a
- joyous and happy holiday season!</p>
-   <p>Mr. Barrett</p>
-			  
-</div>
+        <div class="message">
+          <h5>Dear Friends,</h5>
+   <p>'Tis the season of giving and
+ gratitude. Thank you for your continued 
+support. We wish you and your family a
+ joyous and happy holiday season. </p>
+   <h5>Mr. Barrett and the IT Shop</h5>
+    </div>
       </div>
       <div class="page">
-		<img src="ObrienTech_MascotLogo_CMYK.png">
-	
+        <img src="https://lh3.googleusercontent.com/drive-storage/AJQWtBM6mvhcUUJm3I8reGmAO3eWfU6WpISbNC0SR8IQT90uEVbYyJwydYSRFNy-ohKKsiC1Odn1l55rjWKax8E6XoAqtJSeLjVHv_5aZBdMdgeJTC4=w1532-h913">
       </div>
       <div class="front">
-		  <h1>Happy Holidays!</h1>
-	 
+        <h1>Happy Holidays!</h1>
       </div>
     </div>
-	<BODY BGCOLOR="#133">
-<script>
-document.addEventListener('DOMContentLoaded', function(){
-    var script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js';
-    script.onload = function(){
-        particlesJS("snow", {
-            "particles": {
-                "number": {
-                    "value": 200,
-                    "density": {
-                        "enable": true,
-                        "value_area": 800
-                    }
-                },
-                "color": {
-                    "value": "#ffffff"
-                },
-                "opacity": {
-                    "value": 0.7,
-                    "random": false,
-                    "anim": {
-                        "enable": false
-                    }
-                },
-                "size": {
-                    "value": 5,
-                    "random": true,
-                    "anim": {
-                        "enable": false
-                    }
-                },
-                "line_linked": {
-                    "enable": false
-                },
-                "move": {
-                    "enable": true,
-                    "speed": 5,
-                    "direction": "bottom",
-                    "random": true,
-                    "straight": false,
-                    "out_mode": "out",
-                    "bounce": false,
-                    "attract": {
-                        "enable": true,
-                        "rotateX": 300,
-                        "rotateY": 1200
-                    }
-                }
-            },
-            "interactivity": {
-                "events": {
-                    "onhover": {
-                        "enable": false
-                    },
-                    "onclick": {
-                        "enable": false
-                    },
-                    "resize": false
-                }
-            },
-            "retina_detect": true
-        });
-    }
-    document.head.append(script);
-});
-
-</script>
-
-
-	<div id="snow"></div>
-
-
-</BODY>
-
   </body>
 </html>
